@@ -1,0 +1,3 @@
+﻿  parseInputFile.cpp
+c:\users\kali\desktop\mrnd-summer\course\day8\day8\parseinputfile.cpp(34): warning C4715: 'readFile' : not all control paths return a value
+  day8.vcxproj -> C:\Users\kali\Desktop\mrnd-summer\course\day8\Debug\day8.exe
