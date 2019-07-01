@@ -1,0 +1,32 @@
+﻿Build started 26-05-2019 08:18:32.
+     1>Project "C:\Users\kali\Desktop\mrnd-summer\course\runlength\runlength\runlength.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt addLinkedList.cpp cloningLinkedList.cpp loopDetection.cpp matrixTranspose.cpp reverseKelements.cpp RunLenght.cpp Source.cpp Spiral.cpp
+         Spiral.cpp
+         Source.cpp
+         RunLenght.cpp
+         reverseKelements.cpp
+         matrixTranspose.cpp
+         loopDetection.cpp
+         cloningLinkedList.cpp
+         addLinkedList.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kali\Desktop\mrnd-summer\course\runlength\Debug\runlength.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kali\Desktop\mrnd-summer\course\runlength\Debug\runlength.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kali\Desktop\mrnd-summer\course\runlength\Debug\runlength.lib" /MACHINE:X86 Debug\addLinkedList.obj
+         Debug\cloningLinkedList.obj
+         Debug\loopDetection.obj
+         Debug\matrixTranspose.obj
+         Debug\reverseKelements.obj
+         Debug\RunLenght.obj
+         Debug\Source.obj
+         Debug\Spiral.obj
+     1>loopDetection.obj : error LNK2005: "struct node * __cdecl createNode(int)" (?createNode@@YAPAUnode@@H@Z) already defined in addLinkedList.obj
+     1>loopDetection.obj : error LNK2005: "int __cdecl lenList(struct node *)" (?lenList@@YAHPAUnode@@@Z) already defined in addLinkedList.obj
+     1>reverseKelements.obj : error LNK2005: "struct node * __cdecl createNode(int)" (?createNode@@YAPAUnode@@H@Z) already defined in addLinkedList.obj
+     1>reverseKelements.obj : error LNK2005: "int __cdecl lenList(struct node *)" (?lenList@@YAHPAUnode@@@Z) already defined in addLinkedList.obj
+     1>C:\Users\kali\Desktop\mrnd-summer\course\runlength\Debug\runlength.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "C:\Users\kali\Desktop\mrnd-summer\course\runlength\runlength\runlength.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.07
